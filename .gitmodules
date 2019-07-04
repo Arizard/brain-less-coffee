@@ -1,0 +1,3 @@
+[submodule "themes/athena"]
+	path = themes/athena
+	url = https://github.com/mtn/athena-hugo-theme.git

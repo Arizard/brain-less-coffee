@@ -1,0 +1,11 @@
+baseURL = "https://brain.less.coffee"
+languageCode = "en-us"
+title = "Brain.Less.Coffee"
+theme = "athena"
+
+[params]
+description = "Arie's Personal Website"
+dateform = "Jan 2, 2006"
+disable_next_prev = true
+github_repo = "brain-less-coffee"
+github_username = "arizard"
