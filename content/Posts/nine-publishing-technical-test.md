@@ -98,6 +98,8 @@ Response Body:
 
 # Assumptions
 
+*   The spec lists two different URIs for the third endpoint: `tags` and `tag`. This project uses the plural, `tags` to stay with the naming convention of the `articles` URI.
+*   The spec says "The articles field contains a list of ids for the last 10 articles entered for that day" and I have assumed this means for the tag as well - This wouldn't make sense to keep non-tag-related content under  the `tags` resource.
 *   CORS will need to be handled. In this case CORS is permitted for all hosts and all headers are exposed for development purposes and would be configured differently in production.
 *   The storage method of the resource does not need to persist between sessions (stored "in memory").
 *   The requests to endpoints are usually correctly formatted and response codes do not need to be extremely specific.
@@ -176,6 +178,18 @@ The interface `entities.ArticleRepository` is defined here. This allows dependen
 With this architecture, there is a high level of maintainability and testability of the project, allowing for **automated testing**, **continous integration/continous delivery**, and **agile iteration** - responding to the changing needs of the business or customer.
 
 From a programmer's perspective, the codebase is easy to reason about - conversion from domain variables to JSON (or XML or YAML) happens in the presentation layer. Persistence of data (whether by database, file or API) exists in the infrastructure layer
+
+# Feedback
+
+* The spec for this assignment is very loose but allows for plenty of creative freedom in the solution.
+* The example output for the `tags` resource doesn't seem to be valid - how can there be 17 articles for the tag on that day, but only 2 articles are listed in the `articles` field?
+* I'm wondering if the submission email is supposed to appear to the user as `amp HYPHEN tech HYPHEN test HYPHEN submissions HYPHEN group AT fairfaxmedia DOT com DOT au` on the test spec.
+
+# Further
+
+* More tests: some example tests are provided but do not go in-depth. It would be a good addition to provide more tests to check for edge cases.
+* An endpoint for the `articles` resource that returns the first 10 results of a keyword search.
+* Authentication: a `UserValidator` or `UserAuthenticator` interface which is injected into the handler to block or permit requests based on a bearer token or other auth method.
 
 
 
