@@ -9,3 +9,6 @@ dateform = "Jan 2, 2006"
 disable_next_prev = true
 github_repo = "brain-less-coffee"
 github_username = "arizard"
+
+[author]
+    name = "Arie Oldman"

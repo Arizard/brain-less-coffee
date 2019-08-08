@@ -5,7 +5,9 @@ date: 2019-08-08T12:15:55+10:00
 draft: false
 ---
 
-{{< figure src="/scriptengine/2019-08-08-12-57.png" title="Screenshot of ScriptEngine at http://react.less.coffee" >}}
+{{< figure src="/scriptengine/2019-08-08-12-57.png" title="Screenshot of ScriptEngine" >}}
+
+Try ScriptEngine [here](http://react.less.coffee).
 
 # Motivation
 
