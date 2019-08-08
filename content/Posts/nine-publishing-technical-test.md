@@ -131,9 +131,10 @@ For example, a future developer might like to re-write the application to return
 Similarly, the field `ArticleRepository` can easily be substituted with other structs which implement the interface `entities.ArticleRepository`.
 
 This design allows two key results:
-    * The decision of which data storage infrastructure to use can be left as late as possible - the cost of changing the data storage infrastructure is low for the maintainer.
-    * The risk of breaking the application due to changes is mitigated and reduced.
-    * The `handlers.Handler` struct can be tested end-to-end by injecting fake dependencies, e.g. `FakeJSONPresenter` and `InMemoryArticleRepository`, instead of being forced to test on live/test infrastructure.
+
+* The decision of which data storage infrastructure to use can be left as late as possible - the cost of changing the data storage infrastructure is low for the maintainer.
+* The risk of breaking the application due to changes is mitigated and reduced.
+* The `handlers.Handler` struct can be tested end-to-end by injecting fake dependencies, e.g. `FakeJSONPresenter` and `InMemoryArticleRepository`, instead of being forced to test on live/test infrastructure.
 
 ## `infrastructure/*.go` (The infrastructure layer)
 
