@@ -1,5 +1,5 @@
 ---
-title: "How to Deploy Static Hugo to Google Cloud Storage"
+title: "How to Deploy a Static Hugo Site to Google Cloud Storage"
 date: 2019-07-04T12:26:38+10:00
 draft: false
 ---
