@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-08-08T13:16:57+10:00
-draft: true
+draft: false
 ---
 
 # Arie Oldman
