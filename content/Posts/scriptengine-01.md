@@ -1,5 +1,6 @@
 ---
 title: "How To Organise Your Group Fitness Scripts"
+author: "Arie"
 date: 2019-08-08T12:15:55+10:00
 draft: false
 ---

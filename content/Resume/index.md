@@ -1,5 +1,6 @@
 ---
 title: "Resume"
+author: "Arie"
 date: 2019-07-04T11:29:17+10:00
 draft: false
 ---

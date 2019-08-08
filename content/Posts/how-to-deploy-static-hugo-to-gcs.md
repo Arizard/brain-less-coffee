@@ -1,5 +1,6 @@
 ---
 title: "How to Deploy a Static Hugo Site to Google Cloud Storage"
+author: "Arie"
 date: 2019-07-04T12:26:38+10:00
 draft: false
 ---
