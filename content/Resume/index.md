@@ -4,6 +4,18 @@ author: "Arie"
 date: 2019-07-04T11:29:17+10:00
 draft: false
 ---
+
+----
+Arie Oldman
+
+Sydney, NSW
+
++61 432 934 970
+
+arie.oldman@mq.edu.au
+
+----
+
 A bright engineering graduate who is able to quickly pick up new programming languages and technologies. An active appreciation for best-practice approaches formed through experience within an Agile team.
 
 # Professional Experience

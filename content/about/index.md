@@ -1,10 +1,13 @@
 ---
 title: "About"
+author: "Arie"
 date: 2019-08-08T13:16:57+10:00
 draft: false
 ---
 
 # Arie Oldman
+
+[View Resume](/resume)
 
 I'm a software developer from Sydney, Australia. 
 
