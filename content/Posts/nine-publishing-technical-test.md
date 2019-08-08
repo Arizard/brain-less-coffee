@@ -2,7 +2,7 @@
 title: "Nine Publishing Technical Test"
 author: "Arie"
 date: 2019-08-08T16:57:11+10:00
-draft: true
+draft: false
 ---
 
 # Installation Instructions for MacOS
