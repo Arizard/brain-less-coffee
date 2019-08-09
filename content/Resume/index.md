@@ -84,13 +84,9 @@ Final year thesis project. Research and development of an inline network device 
 
 # Skills
 
-* Python (Flask, Django, NumPy, Scikit, Pandas, Matplotlib)
+* Python, Go (designing and building REST APIs)
+* JavaScript (React) 
 * Google Cloud Platform (Compute Engine, App Engine, Cloud Storage, Cloud DNS)
-* Go (Openflow Controllers, Web applications)
-* JavaScript (SigmaJS graph library, Leaflet, jQuery) 
-* Computer Networks (IPv4, IPv6, TCP, Openflow)
-* Linux, MacOS, Windows
-* Data visualisation and modelling (Python, MATLAB, JavaScript)
 * Presentation and public speaking (Group Fitness Instructor)
 
 # Training

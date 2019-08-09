@@ -191,15 +191,3 @@ From a programmer's perspective, the codebase is easy to reason about - conversi
 * More tests: some example tests are provided but do not go in-depth. It would be a good addition to provide more tests to check for edge cases.
 * An endpoint for the `articles` resource that returns the first 10 results of a keyword search.
 * Authentication: a `UserValidator` or `UserAuthenticator` interface which is injected into the handler to block or permit requests based on a bearer token or other auth method.
-
-
-
-
-
-
-
-
-
-
-
-
