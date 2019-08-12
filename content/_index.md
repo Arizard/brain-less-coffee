@@ -6,4 +6,4 @@ draft: false
 
 # Brainless Coffee
 
-Welcome to my blog!
+Welcome to my website! See the catalogue below for an assortment of programming and group fitness posts.
