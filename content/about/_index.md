@@ -20,3 +20,9 @@ When I was a teenager I spent a significant amount of time playing and developin
 # Brainless Coffee
 
 This is a personal blog which features a mix of developer content and group fitness posts. Enjoy!
+
+# Links
+
+*   [GitHub](https://github.com/Arizard/)
+*   [LinkedIn](https://www.linkedin.com/in/arieoldman/)
+*   [Gmodstore](https://www.gmodstore.com/users/76561198020843439)

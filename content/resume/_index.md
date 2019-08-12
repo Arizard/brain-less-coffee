@@ -64,7 +64,7 @@ Macquarie University Cadet Engineer, one of six students selected to complete tw
 
 *2013 to 2018*
 
-* Founder of Game[REDACTED] (2013 – 2015) and VHS-7 (2015 – 2017) gaming communities. 
+* Founder of Game\[REDACTED\] (2013 – 2015) and VHS-7 (2015 – 2017) gaming communities. 
 * Lead software development for online presence (php, html, phpBB, myBB) and in-game presence (Lua) to create a unique, enjoyable experience that keeps players returning to the community’s servers.
 * Created surveys and conducted 1:1 feedback sessions with community members to identify key improvement areas for the community.
 
