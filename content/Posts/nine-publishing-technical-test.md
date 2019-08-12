@@ -5,6 +5,8 @@ date: 2019-08-08T16:57:11+10:00
 draft: false
 ---
 
+[View the repository here](https://github.com/Arizard/nine-publishing-technical-test)
+
 # Installation Instructions for MacOS
 
 1.  Run `go get github.com/arizard/nine-publishing-technical-test` at the terminal prompt.
