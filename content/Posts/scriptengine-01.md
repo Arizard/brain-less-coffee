@@ -57,6 +57,7 @@ I'm interested in feedback from instructors of all experience levels. If you'd l
 
 This is a list of planned features for ScriptEngine, which might be completed in no particular order:
 
+* ~~As a user, I would like to know if my document successfuly saved or if there was an error.~~
 * As a user, I would like to have an autocomplete or a suggestion helper for the Move Name, Move Outcome and Relevant Cues field to speed up the scripting process for new releases and reduce how often I have to repeat myself.
 * As a user, I would like to toggle the visibility of each column in the script - for example, I may want to only display the *Move Name* and the *Relevant Cues* fields while practicing.
 * As a user, I want to "tag" a row with D, I, S or C if the relevant cues are targeted towards a specific D.I.S.C profile. This is so I can evaluate which profiles I am teaching to the most and identify profiles which are being left out.
