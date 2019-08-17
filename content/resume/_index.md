@@ -1,106 +1,94 @@
 ---
-title: "Resume"
-author: "Arie"
+title: 'Arie Oldman'
+author: 'Arie'
 date: 2019-07-04T11:29:17+10:00
 draft: false
 ---
 
-----
-Arie Oldman
+{{% fontawesome home-solid %}} Sydney, NSW
 
-Sydney, NSW
+{{% fontawesome phone-square-alt-solid %}} +61 432 934 970
 
-+61 432 934 970
+{{% fontawesome envelope-square-solid %}} arie.oldman@mq.edu.au
 
-arie.oldman@mq.edu.au
+{{% fontawesome github-brands %}} [Arizard](https://github.com/Arizard)
 
-----
+{{% fontawesome globe-asia-solid %}} [brain.less.coffee](http://brain.less.coffee)
 
-A bright engineering graduate who is able to quickly pick up new programming languages and technologies. An active appreciation for best-practice approaches formed through experience within an Agile team.
+***
+
+A bright engineering graduate, eager to broaden their knowledge of technology and capable of quickly picking up new programming languages.
 
 # Professional Experience
 
 ## Spriggy
 
-*Sydney CBD, March 2019 to July 2019*
+_Sydney CBD, March 2019 to July 2019_
 
-Junior platform developer, improving and maintaining user-facing software related to the Spriggy pocket money platform.
+Junior platform developer working on the Spriggy Pocket Money microservices.
 
-* Created standalone Python daemon to batch process transactions with a payment provider to prevent the provider API from being overloaded with requests.
-* Repaired the Python microservice codebase to prevent further 5XX errors being generated for users after receiving reports through Sentry.
-* Participated in the agile software development process, including standup, sprint retrospective and planning, stakeholder signoff and code review to ensure that solutions were of a high quality and addressed the needs of the user.
+-   Reduced technical debt and improved maintainability of the Spriggy platform by designing modular and testable code based on the Clean Architecture model and Domain Driven Design.
+-   Improved stability and uptime of the Spriggy platform by writing a Python daemon which rate-limited the number of transactions processed per minute.
+-   Improved the end user experience for Spriggy users by fixing 5XX errors in the Spriggy platform.
 
 ## Singtel Optus
 
-*Macquarie Park, July 2015 to March 2019*
+_Macquarie Park, July 2015 to March 2019_
 
-Macquarie University Cadet Engineer, one of six students selected to complete two rotations per year in different teams within Optus Networks until graduation.
+Macquarie University Cadet Engineer. Completed two rotations per year in different teams within Optus Networks.
 
-* Develop online network telemetry and topology visualisation web service using Python, JavaScript and Google Compute Engine as part of a network device inventory tracking database, within an Agile team (ongoing).
-* Automated extraction of mobile handset information from device capability logs using Python to fast track mobile handset technology approval process.
-* Coordinated third-party hardware and software tests and perform “basic test case” testing for Samsung J5 Pro mobile handset to bring the device to market for Optus Business.
-* Developed experimental geographical visualisation script using R and ggmap for network drive tests to identify suburban areas with increased rate of call drops.
+-   Visualised network topology by building an interactive network telemetry web application using Flask and React.
+-   Fast-tracked the mobile handset approval process by automating the extraction of mobile handset information from device capability logs.
+-   Deployed Samsung J5 Pro mobile handset to Optus Business customers by coordinating third-party hardware and software tests and performing basic test cases.
+-   Identified suburban areas with an increased rate of call drops by collecting drive test data and visualising the distribution of mobile call dropouts using R.
 
-# Other Experience
 
-## Group Fitness
+# Projects
 
-*December 2017 to Present*
+## ScriptEngine (Web Application)
 
-* Certified Les Mills BODYBALANCE™ and Les Mills BODYSTEP™ instructor. 
-* Confidently communicate safe and effective execution of cardio, strength and mobility exercises to a diverse range of participants in weekly classes to improve individual health over the long term.
-* Provide 1:1 feedback and coaching on an individual’s progress towards fitness goals to ensure their success.
-* Regularly review performance and attend workshops to upskill in Les Mills programs to provide the best experience possible for gym members.
+_2019 to present_
 
-## Personal Projects
+-   Created an online platform for instructors to organise group fitness class plans (scripts) by following a specific format.
+-   Implemented the user interface using **React** with the Blueprint component library, with Firebase as the authentication provider.
+-   Implemented the application middleware using **Go** and Cloud Firestore as the database provider.
+
+## Krios (SDN Controller)
+
+_2019_
+
+-   Educated team members at Spriggy about SDN (Software Defined Networking) with a presentation and practical demonstration of Openflow.
+-   Experimented with creating an SDN controller in **Go**, using the `netrack/openflow` middleware library.
 
 ## Video Game Modding
 
-*2016 to 2018*
+_2016 to 2018_
 
-* Author of Deathrun Neue, RedactedHub, bodyGroupr and doorHandle addons for Garry’s Mod. Written in Lua. Creates a unique experience for players and helps to sustain player retention and revenue.
-
-## Gaming Community Leadership
-
-*2013 to 2018*
-
-* Founder of Game\[REDACTED\] (2013 – 2015) and VHS-7 (2015 – 2017) gaming communities. 
-* Lead software development for online presence (php, html, phpBB, myBB) and in-game presence (Lua) to create a unique, enjoyable experience that keeps players returning to the community’s servers.
-* Created surveys and conducted 1:1 feedback sessions with community members to identify key improvement areas for the community.
+-   Created and published Deathrun Neue, RedactedHub, bodyGroupr and doorHandle addons for Garry’s Mod. Written in **Lua**, available on GitHub and Gmodstore.
 
 # Education
 
 ## Bachelor of Engineering (Honours)
 
-*2019, Major in Telecommunications Engineering*
+_2019, Major in Telecommunications Engineering_
 
 ### Inline DDoS Detection for SMB
 
-Final year thesis project. Research and development of an inline network device which is able to protect against denial of service attacks and block the flow of malicious network traffic using Bro Intrusion Detection System and OpenFlow.
+-   Protected a simulated network against denial of service attacks by writing an SDN controller middleware with **Python** to integrate Openflow and the Bro Intrusion Detection System.
 
-## The King’s School
+# Software
 
-*2014, Higher School Certificate*
+-   Google Cloud Platform, Firebase and AWS
+-   Git, Jira, Confluence
+-   PostgreSQL
+-   Linux, Bash
 
-# Skills
+# Languages
 
-* Python, Go (designing and building REST APIs)
-* JavaScript (React) 
-* Google Cloud Platform (Compute Engine, App Engine, Cloud Storage, Cloud DNS)
-* Presentation and public speaking (Group Fitness Instructor)
+-   Python, Go, JavaScript
 
 # Training
 
-* Les Mills BODYSTEP™ Initial Module Training (Les Mills, 2018)
-* Les Mills BODYBALANCE™ Advanced Instructor Module 1 & 2, Initial Module Training (Les Mills, 2017, 2018, 2019)
-* Presenting With Impact (Black Isle, 2017) – Fundamental presentation skills for professional presentations.
-* Optus IPv6 In Practice (Singtel Optus, 2017) – Foundational IPv6 knowledge such as addressing and compatibility with IPv4.
-* Optus TCP/IP In Practice (Singtel Optus, 2015) – Foundational TCP/IP knowledge such as OSI 7-layer model, TCP handshakes and IPv4 addressing schemes.
-
-# Memberships & Affiliations
-
-* Engineers Australia (Accredited engineer)
-* Fitness Australia (registered Group Fitness Instructor)
-* Macquarie University Campus Life (Casual Staff)
-* Sydney University Sport and Fitness (Casual Staff)
-
+-   Presenting With Impact (Black Isle, 2017)
+-   Optus IPv6 In Practice (Singtel Optus, 2017)
+-   Optus TCP/IP In Practice (Singtel Optus, 2015)

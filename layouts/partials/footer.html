@@ -1,7 +1,27 @@
-		<footer>
-			
-			<span>
-			&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Author.name }}. {{ i18n "generator" | safeHTML }}
-			<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-			</span>
-		</footer>
+<footer>
+	<span>
+		&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time>
+		{{ .Site.Author.name }}. {{ i18n "generator" | safeHTML }}
+		<div>
+			Icons made by
+			<a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+				>Freepik</a
+			>
+			from
+			<a href="https://www.flaticon.com/" title="Flaticon"
+				>www.flaticon.com</a
+			>
+			is licensed by
+			<a
+				href="http://creativecommons.org/licenses/by/3.0/"
+				title="Creative Commons BY 3.0"
+				target="_blank"
+				>CC 3.0 BY</a
+			>
+		</div>
+		<div>
+			Icons made by FontAwesome published is licensed by
+			<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+		</div>
+	</span>
+</footer>
