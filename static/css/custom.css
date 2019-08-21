@@ -60,3 +60,81 @@ hr {
 	position: relative;
 	margin: 0px;
 }
+
+body {
+	color: #394B59;
+}
+
+html, body {
+	background-color: #F5F8FA;
+}
+
+/* h1, h2, h3, h4, h5, h6, .catalogue-title, .nav-title {
+	color: #DB2C6F;
+} */
+
+/* hr {
+	background-color: #FF66A1;
+} */
+
+/* .post-title {
+	color: #DB2C6F;
+} */
+
+.catalogue-line, .post-line {
+	border-top-color: #FF66A1;
+}
+
+.nav-title, a, .nav a, .nav a img {
+	color: #FF66A1;
+}
+
+.nav .inline-icon {
+	background-color: #FF66A1;
+}
+
+.inline-icon {
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	-webkit-mask-size: cover !important;
+	mask-size: cover !important;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: 0 0;
+	mask-position: 0 0;
+}
+
+.inline-icon::before {
+	content: ""
+}
+
+.icon-32 {
+	width: 32px;
+	height: 32px;
+}
+
+.icon-24 {
+	width: 24px;
+	height: 24px;
+	margin-bottom: -6px;
+}
+
+.icon-github {
+	-webkit-mask-image: url('../icons/octicons/mark-github.svg');
+	mask-image: url('../icons/octicons/mark-github.svg');
+}
+
+.icon-linkedin {
+	-webkit-mask-image: url('../icons/linkedin-in-brands.svg');
+	mask-image: url('../icons/linkedin-in-brands.svg');
+}
+
+.icon-resume {
+	-webkit-mask-image: url('../icons/octicons/file.svg');
+	mask-image: url('../icons/octicons/file.svg');
+	-webkit-mask-size: auto 107% !important;
+	mask-size: auto 107% !important;
+	-webkit-mask-position: 0 0.5px !important;
+	mask-position: 0 0.5px !important;
+}
