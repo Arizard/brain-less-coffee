@@ -78,7 +78,7 @@ hr {
 }
 
 .catalogue-line, .post-line {
-	border-top-color: #394B59;
+	border-top-color: #FF66A1;
 }
 
 .nav-title, .nav a, .nav a img {
@@ -143,6 +143,13 @@ a {
 	mask-position: 0 0.5px !important;
 }
 
+.icon-quote {
+	-webkit-mask-image: url('../icons/octicons/quote.svg');
+	mask-image: url('../icons/octicons/quote.svg');
+	-webkit-mask-position: 0 -1px !important;
+	mask-position: 0 -1px !important;
+}
+
 .background-coffee::before {
 	content:"";
 }
@@ -158,4 +165,45 @@ a {
 	margin-top: -256px;
 	margin-right: 32px;
 	margin-left: auto;
+}
+
+.hero-quote {
+	position: relative;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.hero-quote-inner {
+	/* margin: 4rem; */
+	margin-left: 4rem;
+	margin-right: 4rem;
+	position: relative;
+	text-align: center;
+}
+
+.hero-quote-marks {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+}
+
+.hero-quote-marks-close {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 0px;
+	bottom: 64px;
+}
+
+.rotate-180 {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+.hero-quote-marks .inline-icon {
+	background-color: #394B59;
+}
+
+.hero-quote-marks-close .inline-icon {
+	background-color: #394B59;
 }
