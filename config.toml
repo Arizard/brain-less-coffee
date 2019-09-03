@@ -1,4 +1,4 @@
-baseURL = "http://brain.less.coffee"
+baseURL = "https://brain.less.coffee"
 languageCode = "en-us"
 title = "Brain.Less.Coffee"
 theme = "tale"
