@@ -8,7 +8,7 @@
     </div>
 
 	<div class="catalogue">
-		{{ range (.Paginate .Pages).Pages }}
+		{{ range where (.Paginate .Pages).Pages "Params.unlisted" "!=" "true" }}
 			{{ .Render "summary" }}
 		{{ end }}
 	</div>
