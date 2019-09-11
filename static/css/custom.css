@@ -207,3 +207,7 @@ a {
 .hero-quote-marks-close .inline-icon {
 	background-color: #394B59;
 }
+
+.nav li {
+	padding: 0 1.5rem 0 0;
+}
